@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { increment, decrement } from '../actions';
 
-export const INCREMENT_IF_ODD = 'INCREMENT_IF_ODD';
-
 class Counter extends Component {
   incrementIfOdd = () => {
     if (this.props.count % 2 === 0) {
